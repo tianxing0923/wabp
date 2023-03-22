@@ -18,7 +18,6 @@
   "scripts": {
     "tsc": "tsc --noEmit",
     "build": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript",
-    "release": "standard-version",
     "prepublishOnly": "pnpm tsc && pnpm build"
   },
   "engines": {
@@ -29,26 +28,20 @@
     "url": "https://github.com/tianxing0923",
     "email": "tianxing0923@qq.com"
   },
-  "homepage": "https://github.com/wabpjs/wabp/packages/tinypng-cli",
+  "homepage": "https://github.com/tianxing0923/wabp/packages/tinypng-cli",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wabpjs/wabp.git",
+    "url": "git+https://github.com/tianxing0923/wabp.git",
     "directory": "packages/tinypng-cli"
   },
   "bugs": {
-    "url": "https://github.com/wabpjs/wabp/issues",
+    "url": "https://github.com/tianxing0923/wabp/issues",
     "email": "tianxing0923@qq.com"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^24.0.1",
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-typescript": "^11.0.0",
     "@types/glob": "^8.1.0",
     "@types/minimatch": "^5.1.2",
-    "@types/minimist": "^1.2.2",
-    "@types/node": "^18.15.5",
-    "rollup": "^3.20.0",
-    "typescript": "^5.0.2"
+    "@types/minimist": "^1.2.2"
   },
   "dependencies": {
     "chalk": "^5.2.0",
