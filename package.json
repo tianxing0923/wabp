@@ -12,7 +12,7 @@
     "prepare": "husky install",
     "build": "pnpm build -r --filter ./packages",
     "changeset": "changeset",
-    "version": "changeset version",
+    "cv": "changeset version",
     "publish": "changeset publish"
   },
   "devDependencies": {
