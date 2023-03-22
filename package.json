@@ -11,9 +11,9 @@
     "lint": "lint-staged",
     "prepare": "husky install",
     "build": "pnpm build -r --filter ./packages",
-    "changeset": "changeset",
-    "cv": "changeset version",
-    "publish": "changeset publish"
+    "cs": "changeset",
+    "csv": "changeset version",
+    "csp": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
