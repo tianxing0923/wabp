@@ -13,8 +13,8 @@
     "prepare": "husky install",
     "build": "pnpm --filter './packages/**' build",
     "changeset": "changeset",
-    "ci:version": "changeset version && pnpm install --frozen-lockfile=false",
-    "ci:publish": "changeset publish -r",
+    "ci:version": "changeset version",
+    "ci:publish": "changeset publish",
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
