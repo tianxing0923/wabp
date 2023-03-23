@@ -5,7 +5,7 @@ TinyPNG CLI 工具，可使用 Tinify API 和模拟浏览器请求压缩
 ## 安装
 
 ```
-  npm install -g @wabp/tinypng-cli
+npm install -g @wabp/tinypng-cli
 ```
 
 ## 配置
