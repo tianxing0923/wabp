@@ -1,0 +1,33 @@
+{
+  "name": "@wabp/prettier-config",
+  "version": "0.0.1",
+  "description": "prettier 统一规范配置",
+  "keywords": [
+    "wabp-prettier",
+    "prettier",
+    "prettier-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "author": {
+    "name": "Eric Tian",
+    "url": "https://github.com/tianxing0923",
+    "email": "tianxing0923@qq.com"
+  },
+  "homepage": "https://github.com/tianxing0923/wabp/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianxing0923/wabp.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/tianxing0923/wabp/issues",
+    "email": "tianxing0923@qq.com"
+  }
+}
