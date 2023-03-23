@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "lint-staged",
     "prepare": "husky install",
-    "build": "pnpm build -r --filter ./packages",
+    "build": "pnpm --filter './packages/**' build",
     "changeset": "changeset",
     "ci:version": "changeset version && pnpm install --no-frozen-lockfile",
     "ci:publish": "changeset publish -r",
