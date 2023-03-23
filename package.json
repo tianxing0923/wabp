@@ -5,15 +5,17 @@
     "packages/*"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=14",
+    "pnpm": ">=7"
   },
   "scripts": {
     "lint": "lint-staged",
     "prepare": "husky install",
     "build": "pnpm build -r --filter ./packages",
-    "cs": "changeset",
-    "csv": "changeset version",
-    "csp": "changeset publish"
+    "changeset": "changeset",
+    "ci:version": "changeset version && pnpm install --no-frozen-lockfile",
+    "ci:publish": "changeset publish -r",
+    "preinstall": "npm only-allow pnpm"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
@@ -37,6 +39,5 @@
     "prettier": "^2.8.5",
     "rollup": "^3.20.0",
     "typescript": "^5.0.2"
-  },
-  "packageManager": "pnpm@7.25.0"
+  }
 }
