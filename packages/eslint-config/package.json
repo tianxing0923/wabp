@@ -1,0 +1,49 @@
+{
+  "name": "@wabp/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint 统一规范配置",
+  "keywords": [
+    "wabp-eslint",
+    "eslint",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js",
+    "typescript.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "author": {
+    "name": "Eric Tian",
+    "url": "https://github.com/tianxing0923",
+    "email": "tianxing0923@qq.com"
+  },
+  "homepage": "https://github.com/tianxing0923/wabp/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianxing0923/wabp.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/tianxing0923/wabp/issues",
+    "email": "tianxing0923@qq.com"
+  },
+  "devDependencies": {
+    "@wabp/prettier-config": "workspace:*"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
