@@ -48,6 +48,9 @@ importers:
       rollup: registry.npmmirror.com/rollup/3.20.0
       typescript: registry.npmmirror.com/typescript/5.0.2
 
+  packages/prettier-config:
+    specifiers: {}
+
   packages/tinypng-cli:
     specifiers:
       '@types/glob': ^8.1.0
