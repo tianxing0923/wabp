@@ -1,5 +1,11 @@
 # @wabp/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 310014a: 修改依赖项
+
 ## 1.0.0
 
 ### Major Changes

@@ -1,6 +1,6 @@
 {
   "name": "@wabp/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint 统一规范配置",
   "keywords": [
     "wabp-eslint",
@@ -33,7 +33,6 @@
     "email": "tianxing0923@qq.com"
   },
   "devDependencies": {
-    "@wabp/prettier-config": "workspace:*",
     "typescript": "^5.0.2",
     "prettier": "^2.8.6"
   },
