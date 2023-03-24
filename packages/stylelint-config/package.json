@@ -1,0 +1,49 @@
+{
+  "name": "@wabp/stylelint-config",
+  "version": "0.0.1",
+  "description": "stylelint 统一规范配置",
+  "keywords": [
+    "wabp-stylelint",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "author": {
+    "name": "Eric Tian",
+    "url": "https://github.com/tianxing0923",
+    "email": "tianxing0923@qq.com"
+  },
+  "homepage": "https://github.com/tianxing0923/wabp/packages/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianxing0923/wabp.git",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/tianxing0923/wabp/issues",
+    "email": "tianxing0923@qq.com"
+  },
+  "devDependencies": {
+    "@wabp/prettier-config": "workspace:*",
+    "prettier": "^2.8.6"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-scss": "^4.0.6",
+    "stylelint": "^15.3.0",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-scss": "^4.5.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=2"
+  }
+}
