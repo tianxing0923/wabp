@@ -2,8 +2,8 @@ import crypto from 'node:crypto'
 import fs from 'node:fs'
 import https from 'node:https'
 import path from 'node:path'
-import glob from 'glob'
-import minimatch from 'minimatch'
+import { globSync } from 'glob'
+import { minimatch } from 'minimatch'
 import cosmiconfig from 'cosmiconfig'
 import type { Ora } from 'ora'
 import chalk from 'chalk'
@@ -85,7 +85,7 @@ export async function findImages(dir: string) {
     let images: string[] = []
     try {
       if (fs.lstatSync(dir).isDirectory()) {
-        images = images.concat(glob.sync(`${dir}/**/${extensions}`, { matchBase: true }))
+        images = images.concat(globSync(`${dir}/**/${extensions}`, { matchBase: true }))
       } else if (minimatch(dir, extensions, { matchBase: true })) {
         images.push(dir)
       }

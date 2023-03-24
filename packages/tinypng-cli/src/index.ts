@@ -2,6 +2,7 @@ import minimist from 'minimist'
 import chalk from 'chalk'
 import ora from 'ora'
 import tinify from 'tinify'
+import { version } from '../package.json'
 import {
   changeSpinnerText,
   createHash,
@@ -15,7 +16,6 @@ import {
   tinifyCompress,
 } from './utils'
 import type { CompressResponse } from './utils'
-import { version } from '../package.json'
 
 const argv = minimist(process.argv.slice(2))
 const dir = argv._.length ? argv._[0] : '.'
