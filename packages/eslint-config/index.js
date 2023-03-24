@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
+    'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',

@@ -1,12 +1,3 @@
 {
-  "env": {
-    "node": true,
-    "browser": true
-  },
-  "extends": ["standard", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
-  "plugins": ["@typescript-eslint"]
+  "extends": ["./packages/eslint-config/typescript"]
 }
