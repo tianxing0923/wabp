@@ -12,17 +12,17 @@ npm i -D @wabp/eslint-config
 
 - React 项目在根目录新建 `.eslintrc.json` 文件，并加入下面 👇 代码
 
-```js
+```json
 {
-  "extends": "@wabp/eslint-config",
+  "extends": "@wabp/eslint-config"
 }
 ```
 
 - 单纯 TypeScript 项目在根目录新建 `.eslintrc.json` 文件，并加入下面 👇 代码
 
-```js
+```json
 {
-  "extends": ["@wabp/eslint-config:typescript"],
+  "extends": ["@wabp/eslint-config:typescript"]
 }
 ```
 
@@ -31,15 +31,14 @@ npm i -D @wabp/eslint-config
 1、打开编辑器设置文件（以 vscode 为例）：
 
 ```js
-command + P  -->  输入setting  --> 选择 settings.json文件
+command + P  -->  输入 setting  --> 选择 settings.json 文件
 ```
 
 2、在文件中添加如下代码并保存：
 
 ```js
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
   },
 ```
 
