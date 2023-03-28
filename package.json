@@ -11,6 +11,8 @@
   "scripts": {
     "lint": "lint-staged",
     "prepare": "husky install",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
     "build": "pnpm --filter './packages/**' build",
     "changeset": "changeset",
     "ci:version": "changeset version",
@@ -38,6 +40,7 @@
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.5",
     "rollup": "^3.20.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vitest": "^0.29.7"
   }
 }

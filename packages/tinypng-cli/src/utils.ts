@@ -115,7 +115,7 @@ export function getImageHashMap(images: string[]) {
 const options: https.RequestOptions = {
   method: 'POST',
   hostname: 'tinypng.com',
-  path: '/web/shrink',
+  path: '/backend/opt/shrink',
   headers: {
     'Postman-Token': Date.now(),
     accept: '*/*',
